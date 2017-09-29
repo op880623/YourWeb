@@ -37,12 +37,12 @@ a {
 }
 
 li:hover  {
-  border: 1px solid #ff6600;
+  border: 1px solid lightblue;
   background-color: #fff;
 }
 
 li:hover a {
-  color: #ff6600;
+  color: lightblue;
   font-weight: 800;
 }
 
@@ -196,7 +196,8 @@ hr.bar {
 
 
 @media screen and (min-width: 1024px) {
-  .menu-button, .menu-button-checkbox {
+  .menu-button,
+  .menu-button-checkbox {
     display: none;
   }
 }
